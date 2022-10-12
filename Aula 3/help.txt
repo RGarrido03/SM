@@ -1,0 +1,6 @@
+Frequência de um sinal composto por duas sinosoides:
+f0 = MDC(f1,f2)
+
+Potência média de um sinal:
+Pm = integraldefinido[0 -> T0]((abs(f(t)))² dt)
+Pm = A²/2
