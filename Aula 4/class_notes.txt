@@ -1,0 +1,13 @@
+a0 = 0
+b0 = 0
+
+
+k > 1:
+a_k = 2/T * (integral[-1/2][0](-1)*cos(2*pi*k*f*t)*dt +
+             integral[0][1/2]cos(2*pi*k*f*t)*dt)
+    = 2*([-sen(2*pi*k*t)/2*pi*k][-1/2][0] + ...)
+    = 0
+
+b_k = ...
+    = 0, k par
+      4/pi*k, k ímpar
