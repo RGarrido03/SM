@@ -4,17 +4,12 @@ close
 clc
 
 T = 1; % Período
-N = 100; % Nº períodos
+N = 5; % Nº períodos
 Ta = 0.01; % Período de amostragem
 
 t = 0:Ta:T*N;
-x = sin(2*pi*t);
+x = 8*cos(4*pi*t-pi*3) + 16*cos(6*pi*t + 2*pi/3) + 32*cos(10*pi*t);
 [X,f] = espetro(x,Ta);
-
-% Exercicio 4
-figure(2)
-new_x = reconstroi(X);
-plot(t,new_x)
 
 %% b)
 clear
