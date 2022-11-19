@@ -5,7 +5,7 @@ close
 clc
 
 % 1.
-Ta = 0.0001;
+Ta = 0.001;
 N = 10000;
 [x,t] = GeraSinal(N,Ta);
 figure(1)
