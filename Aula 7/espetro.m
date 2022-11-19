@@ -6,9 +6,4 @@ Fa = 1/Ta;
 
 f = (0:N-1)*Fa/N - Fa/2; % ou f = -Fa/2:Fa/N:Fa/2
 X = fftshift(fft(x))/N;
-
-plot(f,abs(X))
-xlim([-Fa/2,Fa/2])
-xlabel('Frequência (Hz)')
-ylabel('Amplitude')
 end
