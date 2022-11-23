@@ -20,7 +20,7 @@ for nbits = [2,3,4]
     plot(t,x)
     hold on
     plot(t,quantz)
-    plot(partition)
+    % plot(partition)
     hold off
     grid on
     title("nbits = " + nbits)
